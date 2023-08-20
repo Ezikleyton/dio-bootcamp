@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem; /* Margens laterais */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Estilos para seções */
+section {
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+}
+
+/* Estilos para projeto */
+.project {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    max-width: 100px; /* Redimensione a imagem conforme necessário */
+    height: auto;
+    margin-top: 1rem;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+    transition: border-bottom 0.3s;
+}
+
+.project a:hover {
+    border-bottom: 1px solid transparent;
+}
+
+/* Estilos para habilidades */
+.skills-category ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-category li {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para contato */
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
